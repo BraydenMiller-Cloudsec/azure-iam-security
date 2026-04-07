@@ -152,6 +152,17 @@ az policy assignment create --name "keyvault-soft-delete" --display-name "Key Va
 ```bash
 az role assignment list --scope /subscriptions/<sub-id> --output table
 ```
+## Screenshots
+
+### RBAC Role Assignments
+![RBAC Assignments](screenshots/rbac-assignments.jpg)
+
+### Azure Policy Assignments
+![Policy Assignments](screenshots/policy-assignments.jpg)
+
+### Microsoft Defender for Cloud
+![Defender Recommendations](screenshots/defender-recommendations.jpg)
+
 ## Security Decisions
 
 | Decision | What Was Used | Production Alternative | Reason Not Used |
